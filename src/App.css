@@ -25,10 +25,12 @@
   margin-bottom: 30px;
   width: 100%;
   max-width: 500px;
+  flex-wrap: wrap;
 }
 
 .addTask input {
-  flex: 1;
+  flex: 1 1 60%;
+  min-width: 200px;
   padding: 10px 15px;
   border: 1px solid #ccc;
   border-radius: 12px;
@@ -52,11 +54,14 @@
   font-size: 16px;
   cursor: pointer;
   transition: background 0.3s ease;
+  flex: 1 1 30%;
+  min-width: 100px;
 }
 
 .addTask button:hover {
   background-color: #267acc;
 }
+
 
 .list {
   width: 100%;
@@ -74,11 +79,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .list h1 {
   font-size: 20px;
   color: #333;
+  flex: 1 1 auto;
+  word-break: break-word;
 }
 
 .list button {
@@ -94,4 +103,30 @@
 
 .list button:hover {
   background-color: #cc0000;
+}
+
+@media (max-width: 600px) {
+  .addTask {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .addTask input,
+  .addTask button {
+    width: 100%;
+  }
+
+  .list > div {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .list h1 {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .list button {
+    align-self: flex-end;
+  }
 }
