@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/PlantriX/static/css/main.96c27118.css",
+    "main.js": "/PlantriX/static/js/main.77d8e622.js",
+    "index.html": "/PlantriX/index.html",
+    "main.96c27118.css.map": "/PlantriX/static/css/main.96c27118.css.map",
+    "main.77d8e622.js.map": "/PlantriX/static/js/main.77d8e622.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.96c27118.css",
+    "static/js/main.77d8e622.js"
+  ]
+}
