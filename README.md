@@ -1,4 +1,5 @@
-PlantriX — My First React Project
+  "My First React Project"
+
 PlantriX is my first ever project built using React.js, marking the beginning of my journey into modern frontend development. This project is more than just a task manager — it’s a reflection of my learning process, design choices, and hands-on experience with component-based architecture and state management.
 
 🚀 What is PlantriX?
